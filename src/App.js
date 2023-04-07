@@ -1,10 +1,11 @@
-
 import './App.css';
+import Pages from './components/pages/Pages';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Pages/>
+    </>
   );
 }
 
